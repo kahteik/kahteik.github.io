@@ -56,8 +56,8 @@
       while (data.length) {
         var item = data.pop()
         var li = document.createElement("dd");
-        html = '<dd><a href="' + item.html_url + '">' + item.name + "</a>"
-        li.appendChild(document.createTextNode(html))
+        html = '<a href="' + item.html_url + '">' + item.name + "</a>"
+        li.appendChild(document.write(html))
         dl.appendChild(li);
       }
     }
