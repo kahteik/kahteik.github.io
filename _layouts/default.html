@@ -31,12 +31,12 @@
         {% endif %}
         
         <div class="t">
-          <dl>
-            <dt>Projects:
+          <p class="view">Projects:</p>
+          <ul>
             {% for repository in site.github.public_repositories %}
-            <dd><li><a href="{{ repository.html_url }}">{{ repository.name }}</a></li>
+            <li><a href="{{ repository.html_url }}">{{ repository.name }}</a></li>
             {% endfor %}
-          </dl>
+          </ul>
         </div>
       </header>
       <section>
