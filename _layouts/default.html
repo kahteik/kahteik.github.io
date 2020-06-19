@@ -34,7 +34,7 @@
           <dl>
             <dt>Projects:
             {% for repository in site.github.public_repositories %}
-            <dd><a href="{{ repository.html_url }}">{{ repository.name }}</a>
+            <dd><li><a href="{{ repository.html_url }}">{{ repository.name }}</a></li>
             {% endfor %}
           </dl>
         </div>
