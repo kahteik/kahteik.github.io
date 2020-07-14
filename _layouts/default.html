@@ -51,20 +51,20 @@
   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   <script type="text/javascript">
     function foo(response) {
-      var data = response.data
-      var dl = document.getElementById("top")
+      const data = response.data;
+      const dl = document.getElementById('top');
       while (data.length) {
-        var item = data.pop()
-        var li = document.createElement("dd")
-        var a = document.createElement('a')
-        var linkText = document.createTextNode(item.name)
-        a.appendChild(linkText)
-        a.href = item.html_url
-        li.appendChild(a)
+        const item = data.pop();
+        const li = document.createElement('dd');
+        const a = document.createElement('a');
+        const linkText = document.createTextNode(item.name);
+        a.appendChild(linkText);
+        a.href = item.html_url;
+        li.appendChild(a);
         dl.appendChild(li);
       }
     }
-    var script = document.createElement('script');
+    const script = document.createElement('script');
     script.src = 'https://api.github.com/users/bernardkkt/repos?callback=foo';
     document.getElementsByTagName('body')[0].appendChild(script);
   </script>
