@@ -482,6 +482,29 @@ section {
     padding-bottom: 50px
 }
 
+.projects:before {
+    content: attr(aria-label);
+    font-weight: bold
+}
+
+.projects tr {
+    flex-basis: 33.33333333%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 5px 10px
+}
+
+.projects th {
+    font-weight: normal
+}
+
+.projects tr a:hover,
+.projects tr a:focus {
+    color: #675C5C;
+    font-weight: bold
+}
+
 small {
     font-size: 11px
 }
