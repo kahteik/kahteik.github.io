@@ -413,6 +413,8 @@ header {
     width: 270px;
     float: left;
     position: fixed;
+    overflow: auto;
+    max-height: calc(100vh - 65px);
     -webkit-font-smoothing: subpixel-antialiased
 }
 
@@ -535,7 +537,8 @@ footer {
     }
 
     header {
-        padding-right: 320px
+        padding-right: 320px;
+        max-height: unset
     }
 
     section {
