@@ -41,9 +41,11 @@
         {% if site.show_project_lists %}
         <table class="projects" aria-label="Projects on GitHub">
           <tr>
-          {% for repository in site.github.public_repositories %}
-          <th><a href="{{ repository.html_url }}">{{ repository.name }}</a></th>
-          {% endfor %}
+          {% if site.data.projects %}
+            {% for item in site.data.projects %}
+            <th><a href="{{ item.html_url }}">{{ item.name }}</a></th>
+            {% endfor %}
+          {% endif %}
           </tr>
         </table>
         {% endif %}
