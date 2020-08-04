@@ -476,6 +476,7 @@ header ul a strong {
     color: #222
 }
 
+footer,
 section {
     width: calc(100% - 300px);
     float: right;
@@ -517,10 +518,7 @@ hr {
 }
 
 footer {
-    width: 270px;
-    float: left;
-    position: fixed;
-    bottom: 50px;
+    text-align: center;
     -webkit-font-smoothing: subpixel-antialiased
 }
 
