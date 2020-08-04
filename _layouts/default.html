@@ -39,11 +39,13 @@
         {% endif %}
         
         {% if site.show_project_lists %}
-        <ul class="projects" aria-label="Projects on GitHub">
+        <table class="projects" aria-label="Projects on GitHub">
+          <tr>
           {% for repository in site.github.public_repositories %}
-          <li><a href="{{ repository.html_url }}">{{ repository.name }}</a></li>
+          <th><a href="{{ repository.html_url }}">{{ repository.name }}</a></th>
           {% endfor %}
-        </ul>
+          </tr>
+        </table>
         {% endif %}
       </header>
       <section>
