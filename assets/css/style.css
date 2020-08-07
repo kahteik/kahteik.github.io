@@ -505,7 +505,7 @@ footer,
 section {
     width: calc(100% - 300px);
     float: right;
-    padding-bottom: 50px
+    padding-bottom: 10px
 }
 
 .projects:before {
