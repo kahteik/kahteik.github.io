@@ -39,15 +39,13 @@
         {% endif %}
         
         {% if site.show_project_lists %}
-        <table class="projects" aria-label="Projects on GitHub">
-          <tr>
+        <ul class="projects" aria-label="Projects on GitHub">
           {% if site.data.projects %}
             {% for item in site.data.projects %}
-            <th><a href="{{ item.html_url }}" title="{{ item.description }}">{{ item.name }}</a></th>
+            <li><a href="{{ item.html_url }}" title="{{ item.description }}">{{ item.name }}</a></li>
             {% endfor %}
           {% endif %}
-          </tr>
-        </table>
+        </ul>
         {% endif %}
       </header>
       <section>
