@@ -528,7 +528,7 @@ section {
 .projects tr a:hover,
 .projects tr a:focus {
     color: #675C5C;
-    font-weight: bold
+    font-weight: normal
 }
 
 small {
