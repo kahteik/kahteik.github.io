@@ -43,7 +43,7 @@
           <tr>
           {% if site.data.projects %}
             {% for item in site.data.projects %}
-            <th><a href="{{ item.html_url }}">{{ item.name }}</a></th>
+            <th><a href="{{ item.html_url }}" title="{{ item.description }}">{{ item.name }}</a></th>
             {% endfor %}
           {% endif %}
           </tr>
