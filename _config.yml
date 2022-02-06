@@ -6,3 +6,5 @@ show_project_lists: true
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
+author:
+  name: Kek Kah Teik
