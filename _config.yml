@@ -4,3 +4,5 @@ lang: en-GB
 owner_url: https://github.com/bernardkkt
 show_project_lists: true
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
