@@ -556,7 +556,6 @@ screen and (max-width: 960px) {
         width: auto;
         margin: 0
     }
-
     header,
     section,
     footer {
@@ -564,23 +563,19 @@ screen and (max-width: 960px) {
         position: static;
         width: auto
     }
-
     header {
         padding-right: 320px;
         max-height: unset
     }
-
     section {
         border: 1px solid #e5e5e5;
         border-width: 1px 0;
         padding: 20px 0;
         margin: 0 0 20px
     }
-
     header a small {
         display: inline
     }
-
     header ul {
         position: absolute;
         right: 50px;
@@ -593,16 +588,13 @@ screen and (max-width: 720px) {
     body {
         word-wrap: break-word
     }
-
     header {
         padding: 0
     }
-
     header ul,
     header p.view {
         position: static
     }
-
     pre,
     code {
         word-wrap: normal
@@ -614,11 +606,9 @@ screen and (max-width: 480px) {
     body {
         padding: 15px
     }
-
     header ul {
         width: 99%
     }
-
     header li,
     header ul li+li+li {
         width: 33%
