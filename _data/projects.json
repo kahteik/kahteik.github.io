@@ -1,67 +1,44 @@
 [
   {
-    "name": "wsn-leach",
-    "html_url": "https://github.com/bernardkkt/wsn-leach",
-    "description": "Assignment for WSN on LEACH protocol and its improvements"
-  },
-  {
     "name": "loguiado",
     "html_url": "https://github.com/bernardkkt/loguiado",
-    "description": "Logging software with customisable entry of sensors"
-  },
-  {
-    "name": "senlogRPI",
-    "html_url": "https://github.com/bernardkkt/senlogRPI",
-    "description": "Logging scripts"
-  },
-  {
-    "name": "cvis",
-    "html_url": "https://github.com/kahteik/cvis",
-    "description": "COVID Data Visualiser"
-  },
-  {
-    "name": "lcal",
-    "html_url": "https://github.com/bernardkkt/lcal",
-    "description": "Tray application for Chinese calendar"
-  },
-  {
-    "name": "chromium-widevine",
-    "html_url": "https://github.com/bernardkkt/chromium-widevine",
-    "description": "How to install Widevine on Chromium on Linux; how to watch Netflix on Chromium Ubuntu or Debian"
+    "description": "Logging software with customisable entry of sensors",
+    "fork": false
   },
   {
     "name": "netwithquic",
     "html_url": "https://github.com/bernardkkt/netwithquic",
-    "description": "Access the internet with QUIC technology"
+    "description": "Access the internet with QUIC technology",
+    "fork": false
+  },
+  {
+    "name": "senlogRPI",
+    "html_url": "https://github.com/bernardkkt/senlogRPI",
+    "description": "Logging scripts",
+    "fork": false
   },
   {
     "name": "standalone-wg",
     "html_url": "https://github.com/bernardkkt/standalone-wg",
-    "description": "Run WireGuard without the kernel module"
+    "description": "Run WireGuard without the kernel module",
+    "fork": false
   },
   {
     "name": "wg-go-builder",
     "html_url": "https://github.com/bernardkkt/wg-go-builder",
-    "description": "Build WireGuard from source: https://github.com/WireGuard/wireguard-go"
+    "description": "Build WireGuard from source: https://github.com/WireGuard/wireguard-go",
+    "fork": false
   },
   {
     "name": "wg-tools-builder",
     "html_url": "https://github.com/bernardkkt/wg-tools-builder",
-    "description": "Build WireGuard from source: https://github.com/WireGuard/wireguard-tools"
+    "description": "Build WireGuard from source: https://github.com/WireGuard/wireguard-tools",
+    "fork": false
   },
   {
-    "name": "vmess2json",
-    "html_url": "https://github.com/bernardkkt/vmess2json",
-    "description": "JavaScript implementation of vmess2json.py"
-  },
-  {
-    "name": "online-tool-update",
-    "html_url": "https://github.com/bernardkkt/online-tool-update",
-    "description": "A script for downloading a file without extra software on Windows"
-  },
-  {
-    "name": "kahteik.github.io",
-    "html_url": "https://github.com/kahteik/kahteik.github.io",
-    "description": "kahteik's site"
+    "name": "wsn-leach",
+    "html_url": "https://github.com/bernardkkt/wsn-leach",
+    "description": "Assignment for WSN on LEACH protocol and its improvements",
+    "fork": false
   }
 ]
